@@ -85,7 +85,7 @@
             <mxPoint x="670" y="175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H5XLg-262uGlo7exfHj2-721" value="Architecture: Financial Services &amp;gt; Monte Carlo Simulations" style="fillColor=#4DA1F5;strokeColor=none;shadow=1;gradientColor=none;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;html=1;" parent="1" vertex="1">
+        <mxCell id="H5XLg-262uGlo7exfHj2-721" value="Architecture: 104 project" style="fillColor=#4DA1F5;strokeColor=none;shadow=1;gradientColor=none;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;html=1;" parent="1" vertex="1">
           <mxGeometry x="215" y="70" width="740" height="40" as="geometry" />
         </mxCell>
       </root>
