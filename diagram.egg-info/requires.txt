@@ -1,0 +1,4 @@
+flask>=3.0.3
+polars>=1.8.2
+setuptools>=75.3.2
+tree>=0.2.4

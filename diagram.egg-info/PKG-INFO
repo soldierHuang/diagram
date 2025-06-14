@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: diagram
+Version: 0.1.0
+Summary: Add your description here
+Author: linsam
+Author-email: samlin266118@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: flask>=3.0.3
+Requires-Dist: polars>=1.8.2
+Requires-Dist: setuptools>=75.3.2
+Requires-Dist: tree>=0.2.4
+
+# diagram
+https://app.diagrams.net/
