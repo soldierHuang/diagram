@@ -1,0 +1,33 @@
+---
+title: "Architecture: 104 project"
+---
+graph LR
+
+subgraph "Google Cloud Platform"
+    direction LR
+
+    subgraph "排程管理"
+        Airflow[Airflow]
+    end
+
+    subgraph "資料收集"
+        Crawler["爬蟲<br/>Request"]
+    end
+
+    subgraph "資料儲存"
+        Database[MySQL]
+    end
+
+    subgraph "API"
+        ApiServer[FastAPI]
+    end
+    
+    subgraph "視覺化"
+        Dashboard[Redash]
+    end
+
+    Airflow --> Crawler
+    Crawler --> Database
+    Database --> ApiServer
+    Database --> Dashboard
+end
